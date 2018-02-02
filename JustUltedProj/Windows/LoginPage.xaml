@@ -1,0 +1,42 @@
+﻿<Page x:Class="JustUltedProj.Windows.LoginPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d"
+	Title="JustUltedLogin" Height="743" Width="1263">
+    <Grid Width="1280" Height="752">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="659*"/>
+            <RowDefinition Height="93*"/>
+        </Grid.RowDefinitions>
+        <Image HorizontalAlignment="Left" Height="743" VerticalAlignment="Top" Width="1354" Source="/Splashes/Championship_Thresh_Splash_Art.png" Margin="0,0,-74,0" Grid.RowSpan="2"/>
+        <Rectangle Fill="#FF252525" HorizontalAlignment="Left" Height="166" Margin="28,564,0,0" Stroke="Black" StrokeThickness="0" VerticalAlignment="Top" Width="434" Opacity="0.7" Grid.RowSpan="2"/>
+        <Rectangle HorizontalAlignment="Left" Height="100" Margin="610,23,0,0" Stroke="Black" VerticalAlignment="Top" Width="610" Opacity="0.7" Fill="#FF252525" StrokeThickness="0"/>
+        <Button Name ="loginButton" Content="Login" HorizontalAlignment="Left" Margin="293,10,0,0" VerticalAlignment="Top" Width="153" Height="47" FontSize="16" Grid.Row="1" Click="loginButton_Click"/>
+        <TextBox Name="usernameBox" HorizontalAlignment="Left" Height="30" Margin="50,582,0,0" TextWrapping="Wrap" Text="Username" VerticalAlignment="Top" Width="227" MaxLength="34" MaxLines="1"/>
+        <PasswordBox Name ="passwordBox" HorizontalAlignment="Left" Height="30" Margin="50,617,0,0" VerticalAlignment="Top" Width="227" Password="Password" MaxLength="34"/>
+        <Label Content="Recent News" HorizontalAlignment="Left" Height="75" Margin="631,30,0,0" VerticalAlignment="Top" Width="589" FontSize="48" />
+        <CheckBox Name="usernameCheck" Content="Remember Username?" HorizontalAlignment="Left" Margin="298,585,0,0" VerticalAlignment="Top" Width="148" Checked="usernameCheckBox_Checked" Unchecked="usernameCheckBox_Unchecked"/>
+        <CheckBox Name ="passwordCheck" Content="Remember Password?&#xD;&#xA;" HorizontalAlignment="Left" Margin="298,620,0,0" VerticalAlignment="Top" Height="27" Width="148" Checked="passwordCheckBox_Checked" Unchecked="passwordCheckBox_Unchecked"/>
+        <ComboBox Name="regionComboBox" HorizontalAlignment="Left" Height="47" Margin="144,10,0,0" Grid.Row="1" VerticalAlignment="Top" Width="133" SelectionChanged="ComboBox_SelectionChanged" SelectedValuePath="Content">
+            <ComboBoxItem Name="NA">NA</ComboBoxItem>
+            <ComboBoxItem Name="EUW">EUW</ComboBoxItem>
+            <ComboBoxItem Name="EUNE">EUNE</ComboBoxItem>
+            <ComboBoxItem Name="BR">BR</ComboBoxItem>
+            <ComboBoxItem Name="OCE">OCE</ComboBoxItem>
+            <ComboBoxItem Name="TR">TR</ComboBoxItem>
+            <ComboBoxItem Name="RU">RU</ComboBoxItem>
+            <ComboBoxItem Name="KR">KR</ComboBoxItem>
+        </ComboBox>
+        <Label Content="Region:&#xD;&#xA;" HorizontalAlignment="Left" Height="44" Margin="50,13,0,0" VerticalAlignment="Top" Width="89" FontSize="24" Grid.Row="1"/>
+        <ListView x:Name="NewsListView" HorizontalAlignment="Left" Height="588" Margin="610,123,0,0" VerticalAlignment="Top" Width="610" Grid.RowSpan="2" Opacity="0.7" BorderThickness="0">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <ContentControl x:Name="Container" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="0,0,0,0" />
+    </Grid>
+</Page>

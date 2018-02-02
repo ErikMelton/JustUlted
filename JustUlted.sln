@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PVPNetConnect", "..\..\LegendaryClient\PVPNetConnect\PVPNetConnect.csproj", "{93DCBEBF-C652-40ED-A003-CFF421F68B4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JustUltedProj", "JustUltedProj\JustUltedProj.csproj", "{D945DEAF-C793-4727-A8E5-BD4EB1658526}"
+	ProjectSection(ProjectDependencies) = postProject
+		{93DCBEBF-C652-40ED-A003-CFF421F68B4F} = {93DCBEBF-C652-40ED-A003-CFF421F68B4F}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		PubRelease|Any CPU = PubRelease|Any CPU
+		PubRelease|x64 = PubRelease|x64
+		PubRelease|x86 = PubRelease|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93DCBEBF-C652-40ED-A003-CFF421F68B4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93DCBEBF-C652-40ED-A003-CFF421F68B4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93DCBEBF-C652-40ED-A003-CFF421F68B4F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{93DCBEBF-C652-40ED-A003-CFF421F68B4F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{93DCBEBF-C652-40ED-A003-CFF421F68B4F}.PubRelease|Any CPU.ActiveCfg = PubRelease|Any CPU
+		{93DCBEBF-C652-40ED-A003-CFF421F68B4F}.PubRelease|Any CPU.Build.0 = PubRelease|Any CPU
+		{93DCBEBF-C652-40ED-A003-CFF421F68B4F}.PubRelease|x64.ActiveCfg = PubRelease|Any CPU
+		{93DCBEBF-C652-40ED-A003-CFF421F68B4F}.PubRelease|x86.ActiveCfg = PubRelease|Any CPU
+		{93DCBEBF-C652-40ED-A003-CFF421F68B4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93DCBEBF-C652-40ED-A003-CFF421F68B4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93DCBEBF-C652-40ED-A003-CFF421F68B4F}.Release|x64.ActiveCfg = Release|Any CPU
+		{93DCBEBF-C652-40ED-A003-CFF421F68B4F}.Release|x86.ActiveCfg = Release|Any CPU
+		{D945DEAF-C793-4727-A8E5-BD4EB1658526}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D945DEAF-C793-4727-A8E5-BD4EB1658526}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D945DEAF-C793-4727-A8E5-BD4EB1658526}.Debug|x64.ActiveCfg = Debug|x64
+		{D945DEAF-C793-4727-A8E5-BD4EB1658526}.Debug|x64.Build.0 = Debug|x64
+		{D945DEAF-C793-4727-A8E5-BD4EB1658526}.Debug|x86.ActiveCfg = Debug|x86
+		{D945DEAF-C793-4727-A8E5-BD4EB1658526}.Debug|x86.Build.0 = Debug|x86
+		{D945DEAF-C793-4727-A8E5-BD4EB1658526}.PubRelease|Any CPU.ActiveCfg = Release|Any CPU
+		{D945DEAF-C793-4727-A8E5-BD4EB1658526}.PubRelease|Any CPU.Build.0 = Release|Any CPU
+		{D945DEAF-C793-4727-A8E5-BD4EB1658526}.PubRelease|x64.ActiveCfg = Release|x64
+		{D945DEAF-C793-4727-A8E5-BD4EB1658526}.PubRelease|x64.Build.0 = Release|x64
+		{D945DEAF-C793-4727-A8E5-BD4EB1658526}.PubRelease|x86.ActiveCfg = Release|x86
+		{D945DEAF-C793-4727-A8E5-BD4EB1658526}.PubRelease|x86.Build.0 = Release|x86
+		{D945DEAF-C793-4727-A8E5-BD4EB1658526}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D945DEAF-C793-4727-A8E5-BD4EB1658526}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D945DEAF-C793-4727-A8E5-BD4EB1658526}.Release|x64.ActiveCfg = Release|x64
+		{D945DEAF-C793-4727-A8E5-BD4EB1658526}.Release|x64.Build.0 = Release|x64
+		{D945DEAF-C793-4727-A8E5-BD4EB1658526}.Release|x86.ActiveCfg = Release|x86
+		{D945DEAF-C793-4727-A8E5-BD4EB1658526}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
